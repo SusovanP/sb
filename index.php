@@ -1,0 +1,748 @@
+
+<!--php extension-->
+
+ <!-- end of php -->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>SBBMT - HOME</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <style>
+  .color {
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  from {background-color: #ff3300;}
+  to {background-color: yellow;}
+}
+  .color1 {
+  width: 100px;
+  height: 100px;
+  background-color: #008000;
+  animation-name: example1;
+  animation-duration: 10s;
+}
+
+@keyframes example1 {
+  from {background-color: #cc0088;}
+  to {background-color: #4c0080;}
+}
+</style>
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+     
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +91 7276012231</a><br> <br>
+          <a class="text-color mr-3" href=""><strong>EMAIL</strong> hbajpayee@sbbmemorialtrust.com</a>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+           <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/bajpayeehk"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/bajpayeesw"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+          </ul>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#">चम्पारण औद्योगिक क्रांति</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="about.html">Vision & Values</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="neem.html">NEEM</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="./login/index.php">login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.php" ><img src="images/logo.png" alt="logo" style="width: 50px; height: 50px"><span style="color: #66ff66; font-size: 30px;">SBB</span><span style="color: #4ddbff; font-size: 25px;"> Memorial Trust</span></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-hidden="false" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">                                
+          </span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.php">Home</a>
+            </li>
+  
+          
+          <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">चम्पारण औद्योगिक क्रांति</a>
+                <a class="dropdown-item" href="about.html">Vision & Values</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Services & Plan
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Downloads</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career/index.php">CAREER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallary/index.php">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact/index.php">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+
+
+<!-- hero slider -->
+<div class="hero-section overlay bg-cover" data-background="images/banner/slider.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight"> <br>  श्रमिक रोजगार सेवा समिति-बिहार, में आपका स्वागत है।</h1>
+            <h2 class="text-muted mb-4" data-animation-out="fadeOutRight">रोजगार पाने के लिए</h2>
+            <a  class="btn btn-primary" data-animation-out="fadeOutRight" data-toggle="modal" data-target="#EmployeeForm">क्लिक करें</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+</div>
+</div>
+</div>
+
+<!-- /hero slider -->
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="EmployeeForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill The form below to get a Job</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form role="form" enctype='multipart/form-data' class="needs-validation" method="post" action="index.php" novalidate>
+      
+     
+            <div class="form-group">
+            
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   First Name is required
+                   </div>
+              </div>
+            
+         
+            <div class="form-row">
+              <div class="form-group col-md-6" id="email">
+                <label for="inputEmail4">Email</label>
+                <input type="email" name="email" class="form-control" id="inputEmail4">
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   Please enter a valid email address
+                   </div>
+               
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Phone Number</label>
+                <input type="tel" name="phone" class="form-control" id="inputPassword4" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Phone number is required
+                   </div>
+                </div>
+             
+            </div>
+           
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St, Village, district" required>
+          
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Address is mandatory
+               </div>
+                 </div>
+        
+                   <div class="form-group row applicant">
+                <div class="col-sm-4">
+                    <label for="adhar">Adhar Card No</label>
+                   <input type="text" name="adhar_no" class="form-control applicant" id="adhar" placeholder="adhar No.">
+                </div>
+                <div class="col-sm-4">
+                   <label for="formGroupExampleInput2">Date of birth</label>
+                    <input type="text" name="dob" class="form-control applicant" id="formGroupExampleInput2" placeholder="10/12/2020">
+                </div>
+                <div class="col-sm-4">
+                 <label for="exp">Work Experience</label>
+               <input type="text" name="experience" class="form-control applicant" id="exp" placeholder="work experience">
+                  </div>
+                
+                </div>
+                  <div class="form-group applicant">
+                  <label for="field">Field Of experience</label>
+                   <input type="text" name="job_title" class="form-control applicant" id="field" placeholder=" eg Farming">
+                   </div>
+          
+              <input type="hidden" name="status" value="Pending" class="applicant">
+           
+                <input type="hidden" name="type" value="Employee">
+                  
+         
+          
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="submit" name="register" class="btn btn-primary">Register</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="employerForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill The form below to find Employees</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+     
+          <!-- employer Form -->
+
+           <form role="form" enctype='multipart/form-data' class="needs-validation"  method="post" action="index.php" novalidate>
+        
+            <div class="form-row">
+                    <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="First name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   First Name is required
+                   </div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="c-name" placeholder="Company name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                  Please enter your Company name
+                   </div>
+              </div>
+            </div>
+           
+            <div class="form-row">
+              <div class="form-group col-md-6" id="email">
+                <label for="inputEmail4">Email</label>
+                <input type="email" name="email"  class="form-control" id="inputEmail4" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   Please enter a valid email address
+                   </div>
+               
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Phone Number</label>
+                <input type="tel" name="phone" class="form-control" id="inputPassword4">
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Phone number is required
+                   </div>
+                </div>
+             
+            </div>
+           <input type="hidden" name="type" value="Employer">
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St, Village, district,City, State,Pincode" required>
+          
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Address is mandatory
+               </div>
+                 </div>
+           
+              <div class="form-group">
+              <label for="needed">Number of Employees Needed</label>
+              <input type="number" name="needed" class="form-control company">
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+               Please enter number of  employees needed
+               </div>
+              </div>
+                   <div class="form-group row applicant">
+                <div class="col-sm-4">
+                    <label for="adhar">Adhar Card No</label>
+                   <input type="text" name="adhar_no" class="form-control applicant" id="adhar" placeholder="adhar No.">
+                </div>
+                <div class="col-sm-4">
+                   <label for="formGroupExampleInput2">Date of birth</label>
+                    <input type="text" name="dob" class="form-control applicant" id="formGroupExampleInput2" placeholder="10/12/2020">
+                </div>
+                <div class="col-sm-4">
+                 <label for="exp">Work Experience</label>
+               <input type="text" name="experience" class="form-control applicant" id="exp" placeholder="work experience">
+                  </div>
+                
+                </div>
+                  <div class="form-group applicant">
+                  <label for="field">Field Of experience</label>
+                   <input type="text" name="job_title" class="form-control" id="field" placeholder=" eg Farming">
+                   </div>
+               
+            <div class="form-group company">
+                <label for="exampleFormControlTextarea1">Project Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="about" required></textarea>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please describe yourself
+                   </div>
+              </div>
+           
+           
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         <button type="submit" name="register" class="btn btn-primary">Register</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="traineeForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill Th form To train For a Job</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+          
+    <form role="form" enctype='multipart/form-data' class="needs-validation"  method="post" action="index.php" novalidate>
+      
+     
+            <div class="form-group">
+            
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   First Name is required
+                   </div>
+              </div>
+            
+         
+            <div class="form-row">
+              <div class="form-group col-md-6" id="email">
+                <label for="inputEmail4">Email</label>
+                <input type="email" name="email" class="form-control" id="inputEmail4">
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                   Please enter a valid email address
+                   </div>
+               
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Phone Number</label>
+                <input type="tel" name="phone" class="form-control" id="inputPassword4" required>
+                <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Phone number is required
+                   </div>
+                </div>
+             
+            </div>
+           
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St, Village, district" required>
+          
+            <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Address is mandatory
+               </div>
+                 </div>
+        
+                   <div class="form-group row applicant">
+                <div class="col-sm-4">
+                    <label for="adhar">Adhar Card No</label>
+                   <input type="text" name="adhar_no" class="form-control applicant" id="adhar" placeholder="adhar No.">
+                </div>
+                <div class="col-sm-4">
+                   <label for="formGroupExampleInput2">Date of birth</label>
+                    <input type="text" name="dob" class="form-control applicant" id="formGroupExampleInput2" placeholder="10/12/2020">
+                </div>
+                <div class="col-sm-4">
+                 <label for="exp">Work Experience</label>
+               <input type="text" name="experience" class="form-control applicant" id="exp" placeholder="work experience">
+                  </div>
+                
+                </div>
+                  <div class="form-group applicant">
+                  <label for="field">Field you want to train</label>
+                   <input type="text" name="job_title" class="form-control applicant" id="field" placeholder=" eg Farming">
+                   </div>
+          
+              <input type="hidden" name="status" value="Pending" class="applicant">
+           
+                <input type="hidden" name="type" value="Trainee">
+                  
+         
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" name="register" class="btn btn-primary">Register</button>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+  
+      <div class="alert alert-secondary d-none" role="alert">
+  </div>
+<div class="alert alert-danger d-none" role="alert">
+  </div>
+
+
+        </div>
+
+
+
+<!-- cta2 -->
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+       <div class="col-12 text-center" >
+        <h2 class="section-title text-white"> <span class="color">श्रमिक प्राप्त करने के लिए</span> </h2>
+        <a  data-toggle="modal" data-target="#employerForm" class="btn btn-secondary">क्लिक करें </a>
+      </div>
+    
+      <div class="col-12 text-center">
+        <br>
+        <h2 class="section-title text-white"><span class="color1"> प्रशिक्षण प्राप्त करने हेतु </span></h2>
+        <a  data-toggle="modal" data-target="#traineeForm" class="btn btn-secondary">बटन दबाएं</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /cta2 -->
+
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="https://youtu.be/zQ_otH6hQ5k" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">Welcome To <br><span style="color: #4ddbff; font-size: 40px;">SBB Memorial Trust</span> | NEEM Certified Organization In India</h2>
+          <p><span style="color: #4ddbff; font-size: 40px;">श्रमिक रोजगार सेवा समिति-बिहार</span>, सौजन्य: स्व.बिन्ध्याचल बाजपेयी मेमोरियल ट्रस्ट , रोजगार उत्पन्न करने की दिशा में एक संगठित व्यवस्था है। जिसके माध्यम से एक व्यक्ति रोजगार उत्पन्न करता है और एक व्यक्ति रोजगार प्राप्त करता है। यह समझने की जरूरत है कि जहां जीवन है वहां इक्छा है, जरुरत है और जिम्मेदारी है। जहां जरुरत है वहीं रोजगार है।</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+<!-- about us -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">हमारे बारे में</h2>
+        <p><span style="color: #4ddbff; font-size: 40px;">श्रमिक रोजगार सेवा समिति-बिहार</span> <br>में आपका स्वागत है।</p>
+        <p>"श्रमिक रोजगार सेवा समिति "एवं "चंम्पारण औद्योगिक क्रांति" स्व.बिन्ध्याचल बाजपेयी मेमोरियल ट्रस्ट का एक संकल्प एवं अभियान है जिसके माध्यम से स्वरोजगार प्रशिक्षण एवं  संगठित व्यवस्था के माध्यम से रोजगार देने का काम किया जाता है।</p>
+        <p>इस ट्रस्ट के मुख्य ट्रस्टी श्री हरेंद्र कुमार बाजपेयी है जिन्होंने अपने 25 वर्षों के लगातार रोजगार के क्षेत्र में काम करने के अनुभव के आधार पर पूरे बिहार में हर व्यक्ति, महिलाओं एवं नवजवानों को अपने अपने अनुभव एवं क्षमता के आधार पर अपने हीं राज्य, जिले एवं क्षेत्र में एक संगठित व्यवस्था एवं प्रशिक्षण के माध्यम से रोजगार देने एवं रोजगार उत्पन्न करने की मुहिम शुरू किया है।</p>
+        <p>दोस्तों..!</p>
+        <p>हमारे बिहार राज्य में संसाधनों की कमी नहीं है। हमारे पास क्षमता भी है और अवसर भी। किन्तु हमारी एक ही कमी या गुण- "दूर दूर तक जाकर काम करने का साहस" के कारण हम अपने घर को, राज्य को संवार न सके। हम तकलीफों से घिरते चले गए और बदनाम होते चले गए।</p>
+        <p>आइए...हम इस अभियान से जुड़कर अपने क्षमता से रोजगार श्रृजन करें, रोजगार प्राप्त करें।
+              एवं</p>
+        <p>अपने घर को संवारें, बिहार राज्य को संवारें।</p>
+        <p>बिहार का नवनिर्माण करें।</p>
+          <p><span style="color: #ff9933; font-size: 30px;">जय हिन्द!</span><span style="color: #00cc00; font-size: 30px;"> जय बिहार!</span></p>
+        <a href="about.html" class="btn btn-primary-outline">
+और अधिक जानें</a>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="images/about/about-us.jpg" alt="about image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about us -->
+
+
+  <div class="footer bg-footer section border-bottom" >
+    <div class="container" style="color:white;" >
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+         <a class="logo-footer" href="index.php"><img src="images/logo.png" alt="logo" style="width: 50px; height: 50px"><span style="color: #66ff66; font-size: 30px;">SBB</span><span style="color: #4ddbff; font-size: 25px;"> Memorial Trust</span></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Bihar Office Address</li>
+            <li class="mb-2">Station Road Gate no 01,</li>
+            <li class="mb-2">Infront of temple,</li>
+            <li class="mb-2">Dist- Motihari-845401</li>
+            <li class="mb-2">+91 7276012231</li>
+            <li class="mb-2">hbajpayee@sbbmemorialtrust.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SBB Memorial Trust</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="contact/index.php">Contact</a></li>
+            <!-- <li class="mb-3"><a class="text-color" href="#">चम्पारण औद्योगिक क्रांति></l--i>-->
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="neem.html">NEEM</a></li>
+  
+            <li class="mb-3"><a class="text-color" href="./login/index.php">Login</a></li>
+           <!-- <li class="mb-3"><a class="text-color" href="#">FAQs</a></li> -->
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SUPPORT</h4>
+          <ul class="list-unstyled">
+           
+            <li class="mb-3"><a class="text-color" href="career/index.php">Career</a></li>
+            <li class="mb-3"><a class="text-color" href="gallary/index.php">Gallary</a></li>
+          </ul>
+        
+    </div>
+  </div>
+  <!-- copyright -->
+  <br> <br>
+      <div style="text-align: center;">
+          <p style="color: #00e6b8">©Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            <br>
+            </p>
+            <a class="navbar-brand" href="index.php" ><img src="images/logo.png" alt="logo" style="width: 50px; height: 50px"><span style="color: #66ff66; font-size: 30px;">SBB</span><span style="color: #4ddbff; font-size: 25px;"> Memorial Trust</span></a>
+        </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+ 
+    $('.select').on('change', function (e) {
+    var optionSelected = $("option:selected", this);
+    var valueSelected = this.value;
+    if(valueSelected ==="Employee" || valueSelected=="Trainee"){
+     
+        $( ".company" ).prop( "disabled", true );
+        $(".company").addClass("d-none");
+ 
+    }else{
+     
+       $( ".company" ).prop( "disabled", false);
+        $(".company").removeClass("d-none");
+
+    }
+    if(valueSelected === "Employer"){
+    
+     $( ".applicant" ).prop( "disabled", true );
+     $(".applicant").addClass("d-none");
+
+ }else{
+  
+     $( ".applicant" ).prop( "disabled", false);
+     $(".applicant").removeClass("d-none");
+
+ }
+    });
+   
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+             
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+ $(document).ready(function(){
+  $("#employeeForm").click(function(){
+      
+   $("#employeeForm1").removeClass('d-none');
+   if (!$('#emloyerForm1').hasClass("d-none")) {
+       $('#employerForm1').addClass('d-none')
+   }
+  });
+});
+$(document).ready(function(){
+  $("#employerForm").click(function(){
+      
+   $("#employerForm1").removeClass('d-none');
+   if (!$('#emloyeeForm1').hasClass("d-none")) {
+       $('#employeeForm1').addClass('d-none')
+   }
+  });
+});
+$(document).ready(function(){
+  $("#registration-btn").click(function(){
+      
+   $("#registration-form1").removeClass('d-none');
+   if (!$('#emloyeeForm1').hasClass("d-none")) {
+       $('#employeeForm1').addClass('d-none')
+   }
+  });
+});
+    </script>
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'p3plcpnl1015'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
